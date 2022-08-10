@@ -14,7 +14,7 @@ let config = {
      noPlayer: true,
      maxPlayers: 3,
      public: true,
-     geo: {code: "VN", lat: 21.02888, lon: 105.85464},
+     geo: {code: "VN", lat:  22.63333, lon: 106.4},
      roomScript: "/home/hqd_wendal/tvh-fm/mma.js",
    },
 
