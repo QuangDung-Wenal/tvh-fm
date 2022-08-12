@@ -1,10 +1,10 @@
-const roomName = "🏆 Thế Vận Hội - Đấu Kiếm 🏆";
+const roomName = "🏆 ---------Thế Vận Hội --------- 🏆";
 const botName = "VolleyBot";
 const maxPlayers = 3;
 const roomPublic = false;
-const geo = [{ "code": "IT", "lat": 41.9, "lon": 12.5 },{code: "VN", lat: 10.957413  , lon: 106.842687},];
+const geo = [{ "code": "IT", "lat": 41.9, "lon": 12.5 },{code: "VN", lat: 10.957413  , lon: 106.842687}, {code: "VN", lat: 21.02880, lon: 105.85464},];
 
-const room = HBInit({ roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName, geo: geo[1],noPlayer:true });
+const room = HBInit({ roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName, geo: geo[2],noPlayer:true });
 
 const scoreLimit = 7;
 const timeLimit = 0;
